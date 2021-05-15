@@ -3,7 +3,6 @@
 # Export: File -> Export Settings -> select location&what to export
 # Last update: 15 May 2021
 
-| ------------- |
 | -- General -- |
 | ------------- |
 * sm::general::txtFileWritter 
@@ -16,13 +15,11 @@
 * sm::general::PasswordHashWithMD5
 * sm::general::textToAsciiConvertor
 
-| -------------- |
 | --- Spring --- |
 | -------------- |
 * sm::spring::appProperties
 * smm:spring::beanController
 
-| ------------- |
 | ---- SQL ---- |
 | ------------- |
 * sm::sql::connectionPool
