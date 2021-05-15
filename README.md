@@ -18,7 +18,9 @@
 | --- Spring --- |
 | -------------- |
 * sm::spring::appProperties
-* smm:spring::beanController
+* sm::spring::beanController
+* sm::spring::task
+* sm::spring::passwordEncoder
 
 | ---- SQL ---- |
 | ------------- |
