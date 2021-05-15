@@ -21,6 +21,7 @@
 * sm::spring::beanController
 * sm::spring::task
 * sm::spring::passwordEncoder
+* sm::spring::appSecurityConfig
 
 | ---- SQL ---- |
 | ------------- |
