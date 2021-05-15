@@ -64,4 +64,14 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="sm::spring::task" value="import lombok.RequiredArgsConstructor;&#10;import org.springframework.scheduling.annotation.Scheduled;&#10;import org.springframework.stereotype.Component;&#10;&#10;@Component&#10;@RequiredArgsConstructor&#10;public class DailyInterviewProcessor {&#10;&#10;    private final BeanRepo beanRepo;&#10;    private static final int DAY = 1000 * 60 * 60 * 24;&#10;    private static final int DEVELOPER_TEST = 1000 * 60;&#10;&#10;    @Scheduled(fixedRate = DEVELOPER_TEST)&#10;    public void run() {&#10;        // Insert task here&#10;    }&#10;    &#10;}&#10;" description="Creates a task template" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="sm::spring::passwordEncoder" value="    public void setPassword(String password) {&#10;        this.password = encoder().encode(password);&#10;    }&#10;&#10;    @Bean&#10;    public PasswordEncoder encoder() {&#10;        return new BCryptPasswordEncoder();&#10;    }" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>
