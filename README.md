@@ -23,6 +23,7 @@
 * sm::spring::passwordEncoder
 * sm::spring::appSecurityConfig
 * sm::spring::advice
+* sm::spring::setSwaggerConfiguration
 
 | ---- SQL ---- |
 | ------------- |
