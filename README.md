@@ -24,6 +24,7 @@
 * sm::spring::appSecurityConfig
 * sm::spring::advice
 * sm::spring::setSwaggerConfiguration
+* sm::spring::restTemplate
 
 | ---- SQL ---- |
 | ------------- |
