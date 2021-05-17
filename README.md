@@ -22,6 +22,7 @@
 * sm::spring::task
 * sm::spring::passwordEncoder
 * sm::spring::appSecurityConfig
+* sm::spring::advice
 
 | ---- SQL ---- |
 | ------------- |
