@@ -13,6 +13,7 @@
 * sm::general::simpleSingelton
 * sm::general::getLocalIpAdress
 * sm::general::PasswordHashWithMD5
+* sm::general::TokenManager
 * sm::general::textToAsciiConvertor
 
 | --- Spring --- |
