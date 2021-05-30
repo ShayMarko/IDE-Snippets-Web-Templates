@@ -31,3 +31,8 @@
 | ------------- |
 * sm::sql::connectionPool
 * sm::sql::DBUtils
+
+
+| ---- FRONT-END ---- |
+| ------------- |
+* sm::front::createTableFromJson
