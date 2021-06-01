@@ -5,6 +5,7 @@
 
 | -- General -- |
 | ------------- |
+* sm::stamp
 * sm::general::txtFileWritter 
 * sm::general::binaryBaseConvertor
 * sm::general::binarySerialization
