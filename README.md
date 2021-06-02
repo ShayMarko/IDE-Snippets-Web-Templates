@@ -16,6 +16,7 @@
 * sm::general::PasswordHashWithMD5
 * sm::general::TokenManager
 * sm::general::textToAsciiConvertor
+* sm::general::simpleException
 
 | --- Spring --- |
 | -------------- |
