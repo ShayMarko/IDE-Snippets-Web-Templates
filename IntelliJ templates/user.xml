@@ -104,4 +104,14 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="sm::spring::simpleEntity" value="import lombok.Data;&#10;import lombok.NoArgsConstructor;&#10;import javax.persistence.*;&#10;&#10;@Entity&#10;@Data&#10;@NoArgsConstructor&#10;public class Bean {&#10;&#10;    @Id&#10;    @GeneratedValue(strategy = GenerationType.IDENTITY) // Each obj gets his own key&#10;    private int Id;&#10;&#10;}&#10;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="sm::general::simpleException" value="public class BeanException extends Exception {&#10;&#10;    public BeanException(String msg) {&#10;        super(msg);&#10;    }&#10;&#10;}" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>
