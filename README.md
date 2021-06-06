@@ -17,6 +17,7 @@
 * sm::general::TokenManager
 * sm::general::textToAsciiConvertor
 * sm::general::simpleException
+* sm::general::REGEX
 
 | --- Spring --- |
 | -------------- |
