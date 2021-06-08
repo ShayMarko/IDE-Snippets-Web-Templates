@@ -18,6 +18,7 @@
 * sm::general::textToAsciiConvertor
 * sm::general::simpleException
 * sm::general::REGEX
+* sm::general::LoggerHandler
 
 | --- Spring --- |
 | -------------- |
