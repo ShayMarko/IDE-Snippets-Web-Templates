@@ -40,4 +40,5 @@
 
 | ---- FRONT-END ---- |
 | ------------- |
-* sm::front::createTableFromJson
+* sm::js-dom::createTableFromJson
+* sm::js-dom::changeElementsStyle
