@@ -19,6 +19,7 @@
 * sm::general::simpleException
 * sm::general::REGEX
 * sm::general::LoggerHandler
+* sm::general::jsonToPojo
 
 | --- Spring --- |
 | -------------- |
