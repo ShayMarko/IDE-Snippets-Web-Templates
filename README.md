@@ -3,3 +3,4 @@
 - Export: File -> Export Settings -> select location&what to export
 - Last update: 15 May 2021
 
+<h4>Link to my snippets-web <a href="https://sm-snippets.herokuapp.com">Here!</a><h4/>
