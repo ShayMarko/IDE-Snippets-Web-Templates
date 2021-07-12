@@ -1,0 +1,28 @@
+.Title {
+    font-size: 25px;
+    color: #1687A7;
+}
+
+.box {
+    width: 90px;
+    height: 50px;
+    border: 1.5px solid black;
+    padding: 50px;
+    margin: 10px;
+    font-size: 10px; 
+    display:inline-table; 
+}
+
+#inboxTitle {
+    font-family: cursive;
+    font-size: 15px;   
+}
+
+#displayTxt {
+    font-size: 10px;  
+}
+
+#viewProject {
+    font-size: 10px; 
+}
+
