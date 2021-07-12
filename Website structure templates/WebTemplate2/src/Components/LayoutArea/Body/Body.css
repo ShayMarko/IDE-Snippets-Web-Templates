@@ -1,0 +1,12 @@
+.Body {
+	height: 75%;
+    width: 70%;
+    border: 1px solid black;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    background-color:#F6F6F6; 
+    transform: translate(-50%,-50%);
+    transform: translate3d(-50%,-50%,0);
+    margin-top: 3%;
+}
