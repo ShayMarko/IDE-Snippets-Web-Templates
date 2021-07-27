@@ -907,6 +907,8 @@
 		"body": [
 			"import {Notyf} from 'notyf'",
 			"",
+			"/* Inside index.html: */ <link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/notyf@3/notyf.min.css\">",
+			"",
 			"export enum SccMsg {",
 			"    LOGIN_SUCCESSFULLY = \"Logged in successfully\",",
 			"    LOGOUT_SUCCESSFULLY = \"Logged out successfully\",",
@@ -952,5 +954,5 @@
 			"export default notify;"
 		],
 		"description": "Template for handling alerts using Notyf library"
-	}
+	},
 }
