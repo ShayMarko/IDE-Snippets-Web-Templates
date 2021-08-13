@@ -1006,5 +1006,27 @@
 			""
 		],
 		"description": ""
+	},
+	"sm::adjustTextWithDots": {
+		"prefix": "sm::adjustTextWithDots",
+		"body": [
+			"export class TextUtils {",
+			"",
+			"    static getAdjustedText(text: string, maxLength: number): string {",
+			"        return text.length > maxLength ? text.slice(0, maxLength - 3) + ' ...' : text;",
+			"    }",
+			"}",
+			"",
+			"",
+			"/* Implementation inside component: ",
+			"",
+			"import { TextUtils } from \"../../../Utills/TextUtills\";",
+			"",
+			"    <span className=\"smallerTxt\">",
+			"        {TextUtils.getAdjustedText(coupon.description, 35)}",
+			"    </span>  ",
+			"*/"
+		],
+		"description": "Simple method to replace a fiew words of the text with 3 dots"
 	}
 }
