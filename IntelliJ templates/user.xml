@@ -183,4 +183,9 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="sm::spring::emailSender" value="// application.properties&#10;spring.mail.host=smtp.gmail.com&#10;spring.mail.port=587&#10;spring.mail.username=Syp.vault@gmail.com&#10;spring.mail.password=nyqfyG-7jejfi-rihqet&#10;spring.mail.properties.mail.smtp.auth=true&#10;spring.mail.properties.mail.smtp.starttls.enable=true&#10;&#10;@Component&#10;@RequiredArgsConstructor&#10;public class EmailSender  { // SMTP Server&#10;&#10;@Value(&quot;${spring.mail.username}&quot;)&#10;private String FROM;&#10;private final String SUBJECT = &quot;Password recovery&quot;;&#10;private final JavaMailSender emailSender;&#10;&#10;public void sendSimpleMessage(String to, String subject, String text) {&#10;SimpleMailMessage message = new SimpleMailMessage();&#10;message.setFrom(FROM);&#10;message.setTo(to);&#10;message.setSubject(subject);&#10;message.setText(text);&#10;emailSender.send(message);&#10;}&#10;}" description="Sending an email from java" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>
